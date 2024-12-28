@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #262626;
+    color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+h3, h4 {
+    margin: 10px 0;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+    transition: border-color 0.3s ease;
+}
+
+#city-input:focus {
+    border-color: #ff6347; 
+}
+
+#button-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+#button-search:hover {
+    background-color: #ff6347;
+}
+
+#city-name, #city-time, #city-temp {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#city-name {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#city-time {
+    font-size: 18px;
+    color: #dcdcdc;
+}
+
+#city-temp {
+    font-size: 32px;
+    color: #ff6347;
+}
+
+body {
+    padding: 20px;
+}
